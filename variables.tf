@@ -1,7 +1,7 @@
 variable "location" {
   description = "Região onde os recursos serão criados na Azure"
   type        = string
-  default = "Brazil South"
+  default     = "Brazil South"
 }
 
 variable "account_tier" {
