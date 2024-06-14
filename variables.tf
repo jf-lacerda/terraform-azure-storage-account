@@ -1,6 +1,7 @@
 variable "location" {
   description = "Região onde os recursos serão criados na Azure"
   type        = string
+  default = "Brazil South"
 }
 
 variable "account_tier" {
@@ -24,7 +25,7 @@ variable "resource_group_name" {
 variable "storage_account_name" {
   description = "Nome da Storage Account na Azure"
   type        = string
-  default     = "joaolacerda-terraform"
+  default     = "joaolacerdaterraform"
 }
 
 variable "container_name" {
