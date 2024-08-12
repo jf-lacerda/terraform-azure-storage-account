@@ -25,7 +25,7 @@ variable "resource_group_name" {
 variable "storage_account_name" {
   description = "Nome da Storage Account na Azure"
   type        = string
-  default     = "joaolacerdaterraform"
+  default     = "joaoterraform"
 }
 
 variable "container_name" {
