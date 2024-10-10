@@ -6,6 +6,12 @@ terraform {
       version = "3.106.1"
     }
   }
+  backend "azurerm" {
+    resource_group_name = "rg-terraform-state"
+    storage_account_name = "joaoterraformstate96"
+    container_name = "remote-state"
+    key = "value"
+  }
 }
 
 provider "azurerm" {
